@@ -1,6 +1,6 @@
 import { Router } from "express";
 import authenticate from "../middleware/authenticate.js";
-import * as reviewControllers from "../controllers/review.js";
+import * as reviewControllers from "../controllers/review_book.js";
 
 const router = Router();
 
